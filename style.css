@@ -11,6 +11,7 @@ h1 {
   font-size: 255%;
   color: rgb(236, 232, 168);
   font-family: "Montserrat", sans-serif;
+  padding-top: 50px;
 }
 
 .container {
@@ -50,3 +51,91 @@ width: 200px;
 /* align-content: center; */
 margin: auto;
 }
+
+nav ul {
+  list-style-type: none;
+  background-color: rgb(85, 51, 32);
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  margin: 0px;
+  padding: 1px;
+  overflow: hidden;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(85, 51, 32);
+  border-image: initial;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 12px 15px;
+  text-decoration: none;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+nav ul li {
+  float: left;
+  border-right: 2px solid rgb(231, 231, 232);
+}
+
+l {
+  list-style-type: none;
+  margin: 1px;
+  padding: 1px;
+  overflow: hidden;
+  border: 2px solid #e7e7e8;
+  background-color: #8842d5;
+  position: fixed;
+  top: 0;
+  width: 100%;
+ }
+ 
+ li {
+  float: left;
+  border-right: 2px solid #e7e7e8;
+ }
+ 
+ /* Add a border to all( but not the last) list items */
+ li:last-child { 
+  border-right: none;
+ }
+ 
+ li a {
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 15px 17px;
+  text-decoration: none;
+ }
+ 
+ /* Links will change color when hovered over */
+ li a:hover {
+  /* background-color: #7300ff; */
+  border-bottom:1px solid rgb(231, 231, 232)
+
+ }
+ 
+ a:active {
+  background-color: #584949;
+ }
+
+ footer a {
+   text-decoration: none;
+   color: white;
+ }
