@@ -4,6 +4,20 @@
 }
 
 img {
-    width: 200px;
+    width: 250px;
     padding: 20px;
+}
+
+.pic3 img {
+    width: 400px;
+    height: 200px;
+}
+
+.pic7 img {
+    /* height: 100%; */
+    width: 350px; 
+}
+.pic8 img {
+    height: 100%;
+    width: 350px; 
 }
