@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+img {
+    width: 200px;
+    padding: 20px;
+}

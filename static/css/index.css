@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+main div {
+    width: 500px;
+    margin: auto;
+}
+
+p {
+    color: white;
+    width: 400px;
+    height: 100%;
+    font-size: 18px;
+}
