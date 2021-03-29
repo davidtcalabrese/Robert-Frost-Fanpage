@@ -96,6 +96,8 @@ a:active {
   background-color: #584949;
 }
 footer {
+  position: absolute;
+  bottom: 0px;
   color: rgb(246, 250, 226);
   padding: 20px;
   width: 300px;
