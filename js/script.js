@@ -8,7 +8,7 @@ const randColor = () => {
 poems.forEach((poem) => {
   poem.addEventListener("mouseover", (e) => {
     console.log(e);
-    poem.style.outline = "1px solid white";
+    poem.style.outline = "1px solid #FFF";
   });
 
   poem.addEventListener("mouseleave", () => {
